@@ -28,6 +28,8 @@ a:hover {
   align-items: center;
 }
 
+
+
 .profile-container {
   background-color: lightslategrey;
   width: 100%;
@@ -40,7 +42,8 @@ a:hover {
 }
 
 .profile-image {
-  width: 8%;
+  width: 15vh;
+  margin-top: 20px;
   height: auto;
   border-radius: 100%;
   border: solid;
@@ -93,4 +96,37 @@ a:hover {
 
 .project-information {
   color: lightslategrey;
+}
+
+@media (max-width: 900px) {
+  .name {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .contact-container {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .projects-heading {
+    font-size: 2rem;
+  }
+  .projects-container {
+    display: block;
+  }
+  .project-name {
+    font-size: 3rem;
+  }
+  .project-information {
+    font-size: 2rem;
+  }
+  .website-link {
+    font-size: 2rem;
+  }
+  .website-preview {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 600px;
+    height: 600px;
+  }
 }
