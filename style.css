@@ -9,7 +9,7 @@ html, body {
 
 }
 
-a:link {
+a:link, .profile-links:link {
   color: rgb(39, 158, 206);
 }
 
